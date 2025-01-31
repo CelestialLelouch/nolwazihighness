@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <audio id="player" controls style="display: none">
+      <source id="source" type="audio/mp3" src="Song-2.m4a" />
+    </audio>
+
+    <div class="heart-container">
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+      <div class="heart"></div>
+    </div>
+
+    <div id="C1">
+      <div class="content-one">
+        <button class="song-one">Best Thing</button>
+        <button class="song-two">Dandelions</button>
+        <div class="rose" style="top: 85%">
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="text">
+            <span>Happy Valentines Marshmallow Lami🥹❤️‍🔥 ✨</span>
+          </div>
+        </div>
+        <pre>
+                        🥹February Is Your Month❤️‍🔥
+
+                😍I Hope You Enjoy Every Part Of It🥹
+
+                       💖And I Want You Everytime...
+            </pre
+        >
+        <button class="navigator" onclick="show_next('C2', 'C1')">Next</button>
+      </div>
+    </div>
+
+    <div id="C2">
+      <div class="content-one">
+        <div class="rose" style="top: 75%">
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="text">
+            <span>You're are my true source of Happiness Nolwazi🥹❤️‍🔥✨</span>
+          </div>
+        </div>
+
+        <pre>
+                The Thought Of You🥹 Makes Me 
+                Want To Become Someone Better🥺
+
+                Honestly I Am In Love With You😍
+                And I Want You To Know...
+              </pre
+        >
+        <button class="navigator" onclick="show_next('C3', 'C2')">Next</button>
+        <button
+          class="navigator"
+          style="top: -30px"
+          onclick="show_next('C1', 'C2')"
+        >
+          Back
+        </button>
+      </div>
+    </div>
+
+    <div id="C3">
+      <div class="content-one">
+        <div class="rose" style="top: 80%" id="rose">
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="text">
+            <span>I Can't Wait To Be With You🥺💖</span>
+          </div>
+        </div>
+        <pre class="final" style="margin-left: -20%">
+                   Nolwazi Mchunu💖🔥
+            Please Be My Valentine🥹❤️‍🔥❤️‍🔥
+            </pre
+        >
+        <button class="btn-yes" id="btn-yes">
+          Yes, I'll Be Your Valentine😍
+        </button>
+        <button class="btn-no" id="btn-no" style="bottom: 5%">No</button>
+
+        <button
+          class="navigator"
+          style="top: -30px"
+          onclick="show_next('C2', 'C3')"
+        >
+          Back
+        </button>
+      </div>
+    </div>
+
+    <div id="C4">
+      <div class="content">
+        <div class="rose" id="rose">
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="petal"></div>
+          <div class="text">
+            <span>Thank You For Being My Valentine KaMacingwane Omuhle❤️‍🔥😍🫀</span>
+          </div>
+        </div>
+        <button
+          class="navigator"
+          style="top: 20px"
+          onclick="show_next('C3', 'C4')"
+        >
+          Back
+        </button>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    const yes_button = document.querySelector(".btn-yes");
+    yes_button.addEventListener("click", () => {
+      let btn = document.getElementById("btn-yes");
+      show_next('C4', 'C3')
+    });
+
+    const no_button = document.querySelector(".btn-no");
+    no_button.addEventListener("click", () => {
+      let btn = document.getElementById("btn-no");
+
+      if (btn.style.bottom == "5%") {
+        const responses = ["Hayybo Wena👀😭", "Hau Lentombazane😭", "Hahaa my'sister  😐😑", "No💔"]
+        btn.innerHTML = responses[Math.floor(Math.random()*responses.length)];
+        btn.style.bottom = "85%";
+      } else {
+        btn.innerHTML = "No";
+        btn.style.bottom = "5%";
+      }
+    });
+
+    function show_next(next_id, prev_id) {
+      document.getElementById(next_id).style.display = "flex";
+      document.getElementById(prev_id).style.display = "none";
+    }
+
+    const song_one_btn = document.querySelector(".song-one");
+    const song_two_btn = document.querySelector(".song-two");
+
+    const source = document.getElementById("source");
+    const player = document.getElementById("player");
+
+    song_one_btn.addEventListener("click", () => {
+      if (song_one_btn.id != "active-one") {
+        song_one_btn.id = "active-one";
+        song_two_btn.id = "song-two";
+
+        source.src = "Song-1.mp3";
+        player.load();
+        player.play();
+        console.log("reached-one");
+      } else {
+        song_one_btn.id = "song-one";
+        player.pause();
+        player.currentTime = 0;
+      }
+    });
+
+    song_two_btn.addEventListener("click", () => {
+      if (song_two_btn.id != "active-two") {
+        song_two_btn.id = "active-two";
+        song_one_btn.id = "song-one";
+
+        source.src = "Song-2.m4a";
+        player.load();
+        player.play();
+      } else {
+        song_two_btn.id = "song-two";
+        player.pause();
+        player.currentTime = 0;
+      }
+    });
+  </script>
+</html>
